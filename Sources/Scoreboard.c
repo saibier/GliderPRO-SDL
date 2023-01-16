@@ -157,7 +157,7 @@ void RefreshRoomTitle (short mode)
 		break;
 		
 		case kSavingTitleMode:
-		DrawString("\pSaving Game…");
+		DrawString("\pSaving Game‚Ä¶");
 		break;
 		
 		default:
@@ -173,7 +173,7 @@ void RefreshRoomTitle (short mode)
 		break;
 		
 		case kSavingTitleMode:
-		DrawString("\pSaving Game…");
+		DrawString("\pSaving Game‚Ä¶");
 		break;
 		
 		default:

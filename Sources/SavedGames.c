@@ -297,7 +297,7 @@ return false;		// TEMP fix this iwth NavServices
 
 //--------------------------------------------------------------  SaveGame
 
-// This is probably about 3 days away from becoming the "old" function…
+// This is probably about 3 days away from becoming the "old" function‚Ä¶
 // for saving games.
 
 void SaveGame (Boolean doSave)

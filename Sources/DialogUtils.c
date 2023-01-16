@@ -18,7 +18,7 @@
 
 //==============================================================  Functions
 //--------------------------------------------------------------  BringUpDialog
-// Given a dialog pointer and a resource ID, this function brings it up…
+// Given a dialog pointer and a resource ID, this function brings it up‚Ä¶
 // centered, visible, and with the default button outlined.
 
 void BringUpDialog (DialogPtr *theDialog, short dialogID)
@@ -33,7 +33,7 @@ void BringUpDialog (DialogPtr *theDialog, short dialogID)
 }
 
 //--------------------------------------------------------------  GetPutDialogCorner
-// Determines the upper left corner coordinates needed to properly center…
+// Determines the upper left corner coordinates needed to properly center‚Ä¶
 // the standard Mac PutFile dialog (when you save files).
 /*
 void GetPutDialogCorner (Point *theCorner)
@@ -67,7 +67,7 @@ void GetPutDialogCorner (Point *theCorner)
 */
 
 //--------------------------------------------------------------  GetPutDialogCorner
-// Determines the upper left corner coordinates needed to properly center…
+// Determines the upper left corner coordinates needed to properly center‚Ä¶
 // the standard Mac GetFile dialog (when you open files).
 /*
 void GetGetDialogCorner (Point *theCorner)
@@ -151,7 +151,7 @@ void GetDialogRect (Rect *bounds, short dialogID)
 }
 
 //--------------------------------------------------------------  TrueCenterDialog
-// Places a dialog DEAD CENTER (as opposed to 1/3 of the way down as…
+// Places a dialog DEAD CENTER (as opposed to 1/3 of the way down as‚Ä¶
 // is common for Mac dialog centering).
 /*
 void TrueCenterDialog (short dialogID)
@@ -220,7 +220,7 @@ void CenterAlert (short alertID)
 */
 //--------------------------------------------------------------  ZoomOutDialogRect
 
-// Given a dialog, this function does the "zoom" animation to make the…
+// Given a dialog, this function does the "zoom" animation to make the‚Ä¶
 // the dialog appear to expand from nothingness or zoom in at you.
 /*
 void ZoomOutDialogRect (short dialogID)
@@ -329,7 +329,7 @@ void ZoomOutAlertRect (short alertID)
 */
 
 //--------------------------------------------------------------  FlashDialogButton
-// Flashes the default dialog button (item = 1) so as to make it appear…
+// Flashes the default dialog button (item = 1) so as to make it appear‚Ä¶
 // as though the user clicked on it.
 
 void FlashDialogButton (DialogPtr theDialog, short itemNumber)
@@ -346,7 +346,7 @@ void FlashDialogButton (DialogPtr theDialog, short itemNumber)
 }
 
 //--------------------------------------------------------------  DrawDefaultButton
-// Draws a fat outline around the default item (item = 1).  This is the…
+// Draws a fat outline around the default item (item = 1).  This is the‚Ä¶
 // item that is selected if the user hits the Return key.
 
 void DrawDefaultButton (DialogPtr theDialog)
@@ -404,7 +404,7 @@ short GetDialogStringLen (DialogPtr theDialog, short item)
 }
 
 //--------------------------------------------------------------  GetDialogItemValue
-// Returns the value or "state" of a dialog item.  For checkboxes and…
+// Returns the value or "state" of a dialog item.  For checkboxes and‚Ä¶
 // radio buttons, this may be a 1 or 0.
 
 void GetDialogItemValue (DialogPtr theDialog, short item, short *theState)
@@ -418,7 +418,7 @@ void GetDialogItemValue (DialogPtr theDialog, short item, short *theState)
 }
 
 //--------------------------------------------------------------  SetDialogItemValue
-// Sets a specific dialogf items value or state (can set or clear…
+// Sets a specific dialogf items value or state (can set or clear‚Ä¶
 // checkboxes, radio buttons, etc.).
 
 void SetDialogItemValue (DialogPtr theDialog, short item, short theState)
@@ -450,7 +450,7 @@ void ToggleDialogItemValue (DialogPtr theDialog, short item)
 }
 
 //--------------------------------------------------------------  SetDialogNumToStr
-// Function accepts an integer, converts it to a string and sets a…
+// Function accepts an integer, converts it to a string and sets a‚Ä¶
 // dialog items text to this string.
 
 void SetDialogNumToStr (DialogPtr theDialog, short item, long theNumber)
@@ -466,7 +466,7 @@ void SetDialogNumToStr (DialogPtr theDialog, short item, long theNumber)
 }
 
 //--------------------------------------------------------------  GetDialogNumFromStr
-// Function extracts the text from a dialog item and converts it to an…
+// Function extracts the text from a dialog item and converts it to an‚Ä¶
 // integer for returning.
 
 void GetDialogNumFromStr (DialogPtr theDialog, short item, long *theNumber)
@@ -493,7 +493,7 @@ void GetDialogItemRect (DialogPtr theDialog, short item, Rect *theRect)
 }
 
 //--------------------------------------------------------------  SetDialogItemRect
-// Sets the bounding rectangle of the specified dialog item.  Used to…
+// Sets the bounding rectangle of the specified dialog item.  Used to‚Ä¶
 // resize or move a control.
 
 void SetDialogItemRect (DialogPtr theDialog, short item, Rect *theRect)
@@ -522,8 +522,8 @@ void OffsetDialogItemRect (DialogPtr theDialog, short item, short h, short v)
 }
 
 //--------------------------------------------------------------  SelectFromRadioGroup
-// Assuming a series of consecutively numbered radio buttons, this function…
-// clears the whole range of them but sets the one specified (as though…
+// Assuming a series of consecutively numbered radio buttons, this function‚Ä¶
+// clears the whole range of them but sets the one specified (as though‚Ä¶
 // the radio buttons are linked and only one can be set at a time).
 
 void SelectFromRadioGroup (DialogPtr dial, short which, short first, short last)
@@ -543,7 +543,7 @@ void SelectFromRadioGroup (DialogPtr dial, short which, short first, short last)
 }
 
 //--------------------------------------------------------------  AddMenuToPopUp
-// Assigns a menu handle to a pop-up dialog item - thus, giving that…
+// Assigns a menu handle to a pop-up dialog item - thus, giving that‚Ä¶
 // pop-up item something to pop up.
 /*
 void AddMenuToPopUp (DialogPtr theDialog, short whichItem, MenuHandle theMenu)
@@ -609,8 +609,8 @@ void MyDisableControl (DialogPtr theDialog, short whichItem)
 }
 
 //--------------------------------------------------------------  DrawDialogUserText
-// Given a string of text and an item, this function draws the string…
-// within the bounding rect of the item.  Dialog item assumed to be…
+// Given a string of text and an item, this function draws the string‚Ä¶
+// within the bounding rect of the item.  Dialog item assumed to be‚Ä¶
 // a "user item" (invisible item with only bounds).
 
 void DrawDialogUserText (DialogPtr dial, short item, StringPtr text, Boolean invert)
@@ -648,8 +648,8 @@ void DrawDialogUserText (DialogPtr dial, short item, StringPtr text, Boolean inv
 }
 
 //--------------------------------------------------------------  DrawDialogUserText
-// Similar to the above function but doesn't call TETextBox().  Instead,…
-// it truncates the string (and appends "…") to the end in order that…
+// Similar to the above function but doesn't call TETextBox().  Instead,‚Ä¶
+// it truncates the string (and appends "‚Ä¶") to the end in order that‚Ä¶
 // the string fits within the dialog item's bounds.
 
 void DrawDialogUserText2 (DialogPtr dial, short item, StringPtr text)
@@ -671,7 +671,7 @@ void DrawDialogUserText2 (DialogPtr dial, short item, StringPtr text)
 }
 
 //--------------------------------------------------------------  LoadDialogPICT
-// Draws a 'PICT' specified by ID within the bounds of the specified…
+// Draws a 'PICT' specified by ID within the bounds of the specified‚Ä¶
 // dialog item.
 
 void LoadDialogPICT (DialogPtr theDialog, short item, short theID)
@@ -732,7 +732,7 @@ void FrameOvalDialogItem (DialogPtr theDialog, short item)
 }
 
 //--------------------------------------------------------------  BorderDialogItem
-// Given a dialog item, this function draws any combination of 4 sides…
+// Given a dialog item, this function draws any combination of 4 sides‚Ä¶
 // of a box around it.  Which sides get drawn is encoded in "sides".
 
 void BorderDialogItem (DialogPtr theDialog, short item, short sides)

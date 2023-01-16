@@ -141,7 +141,7 @@ void GetRoomScrap (void)
 			{
 				linkRoomNumber = GetRoomLinked (&thisRoom->objects[i]);
 				if (linkRoomNumber == srcRoomNumber)
-				{								// if linked to an object in same roomÉ
+				{								// if linked to an object in same roomâ€¦
 					if (ObjectIsLinkSwitch(&thisRoom->objects[i]))
 					{							// point to new room location
 						thisRoom->objects[i].data.d.where = 

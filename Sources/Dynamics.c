@@ -287,7 +287,7 @@ void RenderFish (short who)
 
 //--------------------------------------------------------------  HandleSparkleObject
 
-// The following handful of functions are called each game frame and handle…
+// The following handful of functions are called each game frame and handle‚Ä¶
 // the movement and state of the various types of dynamic objects.
 
 void HandleSparkleObject (short who)

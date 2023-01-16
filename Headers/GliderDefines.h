@@ -52,100 +52,100 @@
 #define kPlayRefrainSparse1			5
 #define kPlayRefrainSparse2			6
 
-#define kHitWallSound				0			//   ¥¥¥¥¥¥
-#define kFadeInSound				1			//  ¥¥
-#define kFadeOutSound				2			//   ¥¥¥¥¥¥
-#define kBeepsSound					3			//        ¥¥
-#define kBuzzerSound				4			//   ¥¥¥¥¥¥
+#define kHitWallSound				0			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kFadeInSound				1			//  â€¢â€¢
+#define kFadeOutSound				2			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kBeepsSound					3			//        â€¢â€¢
+#define kBuzzerSound				4			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kDingSound					5			//
-#define kEnergizeSound				6			//   ¥¥¥¥¥¥
-#define kFollowSound				7			//  ¥¥    ¥¥
-#define kMicrowavedSound			8			//  ¥¥    ¥¥
-#define kSwitchSound				9			//  ¥¥    ¥¥
-#define kBirdSound					10			//   ¥¥¥¥¥¥
+#define kEnergizeSound				6			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kFollowSound				7			//  â€¢â€¢    â€¢â€¢
+#define kMicrowavedSound			8			//  â€¢â€¢    â€¢â€¢
+#define kSwitchSound				9			//  â€¢â€¢    â€¢â€¢
+#define kBirdSound					10			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kCuckooSound				11			//
-#define kTikSound					12			//  ¥¥    ¥¥
-#define kTokSound					13			//  ¥¥    ¥¥
-#define kBlowerOn					14			//  ¥¥    ¥¥
-#define kBlowerOff					15			//  ¥¥    ¥¥
-#define kCaughtFireSound			16			//   ¥¥¥¥¥¥
+#define kTikSound					12			//  â€¢â€¢    â€¢â€¢
+#define kTokSound					13			//  â€¢â€¢    â€¢â€¢
+#define kBlowerOn					14			//  â€¢â€¢    â€¢â€¢
+#define kBlowerOff					15			//  â€¢â€¢    â€¢â€¢
+#define kCaughtFireSound			16			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kScoreTikSound				17			//
-#define kThrustSound				18			//  ¥¥¥   ¥¥
-#define kFizzleSound				19			//  ¥¥¥¥  ¥¥
-#define kFireBandSound				20			//  ¥¥ ¥¥ ¥¥
-#define kBandReboundSound			21			//  ¥¥  ¥¥¥¥
-#define kGreaseSpillSound			22			//  ¥¥   ¥¥¥
+#define kThrustSound				18			//  â€¢â€¢â€¢   â€¢â€¢
+#define kFizzleSound				19			//  â€¢â€¢â€¢â€¢  â€¢â€¢
+#define kFireBandSound				20			//  â€¢â€¢ â€¢â€¢ â€¢â€¢
+#define kBandReboundSound			21			//  â€¢â€¢  â€¢â€¢â€¢â€¢
+#define kGreaseSpillSound			22			//  â€¢â€¢   â€¢â€¢â€¢
 #define kChordSound					23			//
-#define kVCRSound					24			//  ¥¥¥¥¥¥¥
-#define kFoilHitSound				25			//  ¥¥    ¥¥
-#define kShredSound					26			//  ¥¥    ¥¥
-#define kToastLaunchSound			27			//  ¥¥    ¥¥
-#define kToastLandSound				28			//  ¥¥¥¥¥¥¥
+#define kVCRSound					24			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
+#define kFoilHitSound				25			//  â€¢â€¢    â€¢â€¢
+#define kShredSound					26			//  â€¢â€¢    â€¢â€¢
+#define kToastLaunchSound			27			//  â€¢â€¢    â€¢â€¢
+#define kToastLandSound				28			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
 #define kMacOnSound					29			//
 #define kMacBeepSound				30			//
 #define kMacOffSound				31			//
 #define kTVOnSound					32			//
-#define kTVOffSound					33			//   ¥¥¥¥¥¥
-#define kCoffeeSound				34			//  ¥¥
-#define kMysticSound				35			//   ¥¥¥¥¥¥
-#define kZapSound					36			//        ¥¥
-#define kPopSound					37			//   ¥¥¥¥¥¥
+#define kTVOffSound					33			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kCoffeeSound				34			//  â€¢â€¢
+#define kMysticSound				35			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kZapSound					36			//        â€¢â€¢
+#define kPopSound					37			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kEnemyInSound				38			//
-#define kEnemyOutSound				39			//   ¥¥¥¥¥¥
-#define kPaperCrunchSound			40			//  ¥¥    ¥¥
-#define kBounceSound				41			//  ¥¥    ¥¥
-#define kDripSound					42			//  ¥¥    ¥¥
-#define kDropSound					43			//   ¥¥¥¥¥¥
+#define kEnemyOutSound				39			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kPaperCrunchSound			40			//  â€¢â€¢    â€¢â€¢
+#define kBounceSound				41			//  â€¢â€¢    â€¢â€¢
+#define kDripSound					42			//  â€¢â€¢    â€¢â€¢
+#define kDropSound					43			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kFishOutSound				44			//
-#define kFishInSound				45			//  ¥¥    ¥¥
-#define kDontExitSound				46			//  ¥¥    ¥¥
-#define kSizzleSound				47			//  ¥¥    ¥¥
-#define kPaper1Sound				48			//  ¥¥    ¥¥
-#define kPaper2Sound				49			//   ¥¥¥¥¥¥
+#define kFishInSound				45			//  â€¢â€¢    â€¢â€¢
+#define kDontExitSound				46			//  â€¢â€¢    â€¢â€¢
+#define kSizzleSound				47			//  â€¢â€¢    â€¢â€¢
+#define kPaper1Sound				48			//  â€¢â€¢    â€¢â€¢
+#define kPaper2Sound				49			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kPaper3Sound				50			//
-#define kPaper4Sound				51			//  ¥¥¥   ¥¥
-#define kTypingSound				52			//  ¥¥¥¥  ¥¥
-#define kCarriageSound				53			//  ¥¥ ¥¥ ¥¥
-#define kChord2Sound				54			//  ¥¥  ¥¥¥¥
-#define kPhoneRingSound				55			//  ¥¥   ¥¥¥
+#define kPaper4Sound				51			//  â€¢â€¢â€¢   â€¢â€¢
+#define kTypingSound				52			//  â€¢â€¢â€¢â€¢  â€¢â€¢
+#define kCarriageSound				53			//  â€¢â€¢ â€¢â€¢ â€¢â€¢
+#define kChord2Sound				54			//  â€¢â€¢  â€¢â€¢â€¢â€¢
+#define kPhoneRingSound				55			//  â€¢â€¢   â€¢â€¢â€¢
 #define kChime1Sound				56			//
-#define kChime2Sound				57			//  ¥¥¥¥¥¥¥
-#define kWebTwangSound				58			//  ¥¥    ¥¥
-#define kTransOutSound				59			//  ¥¥    ¥¥
-#define kTransInSound				60			//  ¥¥    ¥¥
-#define kBonusSound					61			//  ¥¥¥¥¥¥¥
+#define kChime2Sound				57			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
+#define kWebTwangSound				58			//  â€¢â€¢    â€¢â€¢
+#define kTransOutSound				59			//  â€¢â€¢    â€¢â€¢
+#define kTransInSound				60			//  â€¢â€¢    â€¢â€¢
+#define kBonusSound					61			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
 #define kHissSound					62			//
 #define kTriggerSound				63
 
-#define kHitWallPriority			100			//   ¥¥¥¥¥¥
-#define kScoreTikPriority			101			//  ¥¥
-#define kBandReboundPriority		102			//   ¥¥¥¥¥¥
-#define kDontExitPriority			103			//        ¥¥
-#define kTikPriority				200			//   ¥¥¥¥¥¥
+#define kHitWallPriority			100			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kScoreTikPriority			101			//  â€¢â€¢
+#define kBandReboundPriority		102			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kDontExitPriority			103			//        â€¢â€¢
+#define kTikPriority				200			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kTokPriority				201			//
-#define kMysticPriority				202			//   ¥¥¥¥¥¥
-#define kChime1Priority				203			//  ¥¥    ¥¥
-#define kChime2Priority				204			//  ¥¥    ¥¥
-#define kThrustPriority				300			//  ¥¥    ¥¥
-#define kFireBandPriority			301			//   ¥¥¥¥¥¥
+#define kMysticPriority				202			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kChime1Priority				203			//  â€¢â€¢    â€¢â€¢
+#define kChime2Priority				204			//  â€¢â€¢    â€¢â€¢
+#define kThrustPriority				300			//  â€¢â€¢    â€¢â€¢
+#define kFireBandPriority			301			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kChordPriority				302			//
-#define kVCRPriority				303			//  ¥¥    ¥¥
-#define kToastLaunchPriority		304			//  ¥¥    ¥¥
-#define kToastLandPriority			305			//  ¥¥    ¥¥
-#define kCoffeePriority				306			//  ¥¥    ¥¥
-#define kBouncePriority				307			//   ¥¥¥¥¥¥
+#define kVCRPriority				303			//  â€¢â€¢    â€¢â€¢
+#define kToastLaunchPriority		304			//  â€¢â€¢    â€¢â€¢
+#define kToastLandPriority			305			//  â€¢â€¢    â€¢â€¢
+#define kCoffeePriority				306			//  â€¢â€¢    â€¢â€¢
+#define kBouncePriority				307			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kDripPriority				308			//
-#define kDropPriority				309			//  ¥¥¥   ¥¥
-#define kWebTwangPriority			310			//  ¥¥¥¥  ¥¥
-#define kHissPriority				311			//  ¥¥ ¥¥ ¥¥
-#define kFoilHitPriority			400			//  ¥¥  ¥¥¥¥
-#define kMacOnPriority				401			//  ¥¥   ¥¥¥
+#define kDropPriority				309			//  â€¢â€¢â€¢   â€¢â€¢
+#define kWebTwangPriority			310			//  â€¢â€¢â€¢â€¢  â€¢â€¢
+#define kHissPriority				311			//  â€¢â€¢ â€¢â€¢ â€¢â€¢
+#define kFoilHitPriority			400			//  â€¢â€¢  â€¢â€¢â€¢â€¢
+#define kMacOnPriority				401			//  â€¢â€¢   â€¢â€¢â€¢
 #define kMacOffPriority				402			//
-#define kMacBeepPriority			403			//  ¥¥¥¥¥¥¥
-#define kTVOnPriority				404			//  ¥¥    ¥¥
-#define kTVOffPriority				405			//  ¥¥    ¥¥
-#define kZapPriority				406			//  ¥¥    ¥¥
-#define kPopPriority				407			//  ¥¥¥¥¥¥¥
+#define kMacBeepPriority			403			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
+#define kTVOnPriority				404			//  â€¢â€¢    â€¢â€¢
+#define kTVOffPriority				405			//  â€¢â€¢    â€¢â€¢
+#define kZapPriority				406			//  â€¢â€¢    â€¢â€¢
+#define kPopPriority				407			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
 #define kEnemyInPriority			408			//
 #define kEnemyOutPriority			409			//
 #define kPaperCrunchPriority		410			//
@@ -279,33 +279,33 @@
 #define kEnemyMode					8
 #define kClutterMode				9
 
-#define kIgnoreIt					0			//   ¥¥¥¥¥¥
-#define kLiftIt						1			//  ¥¥    ¥¥
-#define kDropIt						2			//  ¥¥¥¥¥¥¥¥
-#define kPushItLeft					3			//  ¥¥    ¥¥
-#define kPushItRight				4			//  ¥¥    ¥¥
+#define kIgnoreIt					0			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kLiftIt						1			//  â€¢â€¢    â€¢â€¢
+#define kDropIt						2			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢
+#define kPushItLeft					3			//  â€¢â€¢    â€¢â€¢
+#define kPushItRight				4			//  â€¢â€¢    â€¢â€¢
 #define kDissolveIt					5			//
-#define kRewardIt					6			//   ¥¥¥¥¥¥
-#define kMoveItUp					7			//  ¥¥    ¥¥
-#define kMoveItDown					8			//  ¥¥
-#define kSwitchIt					9			//  ¥¥    ¥¥
-#define kShredIt					10			//   ¥¥¥¥¥¥
+#define kRewardIt					6			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kMoveItUp					7			//  â€¢â€¢    â€¢â€¢
+#define kMoveItDown					8			//  â€¢â€¢
+#define kSwitchIt					9			//  â€¢â€¢    â€¢â€¢
+#define kShredIt					10			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kStrumIt					11			//
-#define kTriggerIt					12			//  ¥¥¥¥¥¥¥¥
-#define kBurnIt						13			//     ¥¥
-#define kSlideIt					14			//     ¥¥
-#define kTransportIt				15			//     ¥¥
-#define kIgnoreLeftWall				16			//     ¥¥
+#define kTriggerIt					12			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢
+#define kBurnIt						13			//     â€¢â€¢
+#define kSlideIt					14			//     â€¢â€¢
+#define kTransportIt				15			//     â€¢â€¢
+#define kIgnoreLeftWall				16			//     â€¢â€¢
 #define kIgnoreRightWall			17			//
-#define kMailItLeft					18			//   ¥¥¥¥¥¥
-#define kMailItRight				19			//     ¥¥
-#define kDuctItDown					20			//     ¥¥
-#define kDuctItUp					21			//     ¥¥
-#define kMicrowaveIt				22			//   ¥¥¥¥¥¥
+#define kMailItLeft					18			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kMailItRight				19			//     â€¢â€¢
+#define kDuctItDown					20			//     â€¢â€¢
+#define kDuctItUp					21			//     â€¢â€¢
+#define kMicrowaveIt				22			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kIgnoreGround				23			//
 #define kBounceIt					24			//
-#define kChimeIt					25			//     ¥¥
-#define kWebIt						26			//     ¥¥
+#define kChimeIt					25			//     â€¢â€¢
+#define kWebIt						26			//     â€¢â€¢
 #define kSoundIt					27
 
 #define kFloorVent					0x01		// Blowers
@@ -568,29 +568,29 @@
 #define kGliderPictID				3999
 #define kGliderStartsDown			32
 
-#define kGliderNormal				0			//  ¥¥    ¥¥
-#define kGliderFadingIn				1			//  ¥¥¥  ¥¥¥
-#define kGliderFadingOut			2			//  ¥¥ ¥¥ ¥¥
-#define kGliderGoingUp				3			//  ¥¥    ¥¥
-#define kGliderComingUp				4			//  ¥¥    ¥¥
+#define kGliderNormal				0			//  â€¢â€¢    â€¢â€¢
+#define kGliderFadingIn				1			//  â€¢â€¢â€¢  â€¢â€¢â€¢
+#define kGliderFadingOut			2			//  â€¢â€¢ â€¢â€¢ â€¢â€¢
+#define kGliderGoingUp				3			//  â€¢â€¢    â€¢â€¢
+#define kGliderComingUp				4			//  â€¢â€¢    â€¢â€¢
 #define kGliderGoingDown			5			// 
-#define kGliderComingDown			6			//   ¥¥¥¥¥¥
-#define kGliderFaceLeft				7			//  ¥¥    ¥¥
-#define kGliderFaceRight			8			//  ¥¥    ¥¥
-#define kGliderBurning				9			//  ¥¥    ¥¥
-#define kGliderTransporting			10			//   ¥¥¥¥¥¥
+#define kGliderComingDown			6			//   â€¢â€¢â€¢â€¢â€¢â€¢
+#define kGliderFaceLeft				7			//  â€¢â€¢    â€¢â€¢
+#define kGliderFaceRight			8			//  â€¢â€¢    â€¢â€¢
+#define kGliderBurning				9			//  â€¢â€¢    â€¢â€¢
+#define kGliderTransporting			10			//   â€¢â€¢â€¢â€¢â€¢â€¢
 #define kGliderDuctingDown			11			//
-#define kGliderDuctingUp			12			//  ¥¥¥¥¥¥¥
-#define kGliderDuctingIn			13			//  ¥¥    ¥¥
-#define kGliderMailInLeft			14			//  ¥¥    ¥¥
-#define kGliderMailOutLeft			15			//  ¥¥    ¥¥
-#define kGliderMailInRight			16			//  ¥¥¥¥¥¥¥
+#define kGliderDuctingUp			12			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
+#define kGliderDuctingIn			13			//  â€¢â€¢    â€¢â€¢
+#define kGliderMailInLeft			14			//  â€¢â€¢    â€¢â€¢
+#define kGliderMailOutLeft			15			//  â€¢â€¢    â€¢â€¢
+#define kGliderMailInRight			16			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢
 #define kGliderMailOutRight			17			//
-#define kGliderGoingFoil			18			//  ¥¥¥¥¥¥¥¥
-#define kGliderLosingFoil			19			//  ¥¥
-#define kGliderShredding			20			//  ¥¥¥¥
-#define kGliderInLimbo				21			//  ¥¥
-#define kGliderIdle					22			//  ¥¥¥¥¥¥¥¥
+#define kGliderGoingFoil			18			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢
+#define kGliderLosingFoil			19			//  â€¢â€¢
+#define kGliderShredding			20			//  â€¢â€¢â€¢â€¢
+#define kGliderInLimbo				21			//  â€¢â€¢
+#define kGliderIdle					22			//  â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢
 #define kGliderTransportingIn		23
 
 #define kPlayerIsDeadForever		-69

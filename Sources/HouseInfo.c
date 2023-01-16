@@ -229,7 +229,7 @@ void DoHouseInfo (void)
 	}
 	HSetState((Handle)thisHouse, wasState);
 	
-	NumToString((long)version >> 8, versStr);		// Convert version to two stringsÉ
+	NumToString((long)version >> 8, versStr);		// Convert version to two stringsâ€¦
 	NumToString((long)version % 0x0100, loVers);	// the 1's and 1/10th's part.
 	NumToString((long)numRooms, nRoomsStr);			// Number of rooms -> string.
 	

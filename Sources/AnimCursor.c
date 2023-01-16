@@ -134,7 +134,7 @@ void InitAnimatedCursor (acurHandle ballCursH)
 
 //--------------------------------------------------------------  LoadCursors
 
-// Just calls the above function.  Other code could be added here though…
+// Just calls the above function.  Other code could be added here though‚Ä¶
 // to add additional cursors.
 
 void LoadCursors (void)

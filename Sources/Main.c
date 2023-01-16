@@ -45,8 +45,8 @@ extern Boolean		doPrettyMap, doBitchDialogs;
 //==============================================================  Functions
 //--------------------------------------------------------------  ReadInPrefs
 
-// Called only once when game launches - reads in the preferences saved…
-// from the last time Glider PRO was launched.  If no prefs are found,…
+// Called only once when game launches - reads in the preferences saved‚Ä¶
+// from the last time Glider PRO was launched.  If no prefs are found,‚Ä¶
 // it assigns default settings.
 
 void ReadInPrefs (void)
@@ -202,7 +202,7 @@ void ReadInPrefs (void)
 
 //--------------------------------------------------------------  WriteOutPrefs
 
-// Called just before Glider PRO quits.  This function writes out…
+// Called just before Glider PRO quits.  This function writes out‚Ä¶
 // the user preferences to disk.
 
 void WriteOutPrefs (void)

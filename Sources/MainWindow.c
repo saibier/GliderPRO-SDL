@@ -299,7 +299,7 @@ void ZoomBetweenWindows (void)
 */
 
 //--------------------------------------------------------------  UpdateEditWindowTitle
-// Handles changing the title across the top of the main window.  Only…
+// Handles changing the title across the top of the main window.  Only‚Ä¶
 // relevant when editing a house (room title displayed in window title).
 
 #ifndef COMPILEDEMO
@@ -448,7 +448,7 @@ void HideMenuBarOld (void)
 */
 //--------------------------------------------------------------  SetPaletteToGrays
 
-// Sets up a gray palette corresponding in luminance to the standard color…
+// Sets up a gray palette corresponding in luminance to the standard color‚Ä¶
 // palette.  This is to facilitate the gray->color fade when the game comes up.
 /*
 void SetPaletteToGrays (void)
@@ -498,7 +498,7 @@ void SetPaletteToGrays (void)
 }
 */
 //--------------------------------------------------------------  HardDrawMainWindow
-// Ignores the ToolBox - this function draws direct to screen in order to…
+// Ignores the ToolBox - this function draws direct to screen in order to‚Ä¶
 // circumvent the Toolbox's attempt to color-match to the current palette.
 /*
 void HardDrawMainWindow (void)
@@ -546,7 +546,7 @@ void HardDrawMainWindow (void)
 }
 */
 //--------------------------------------------------------------  WashColorIn
-// Slowly walks the palette from its gray luminance state to the full color…
+// Slowly walks the palette from its gray luminance state to the full color‚Ä¶
 // palette.  In this way, color appears to slowly wash in.
 /*
 void WashColorIn (void)

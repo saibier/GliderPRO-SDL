@@ -23,7 +23,7 @@ Boolean			isCoordOpen;
 //==============================================================  Functions
 //--------------------------------------------------------------  SetCoordinateHVD
 
-// Given a horizontal, vertical and distance value, this function…
+// Given a horizontal, vertical and distance value, this function‚Ä¶
 // displays these values in the Coordinates window.
 
 void SetCoordinateHVD (short h, short v, short d)
@@ -41,9 +41,9 @@ void SetCoordinateHVD (short h, short v, short d)
 
 //--------------------------------------------------------------  DeltaCoordinateD
 
-// When the user is dragging a handle (such as the height of a blower)…
-// this function can be called and passed the amount by which the user…
-// has changed the height (delta).  This function then displays it in…
+// When the user is dragging a handle (such as the height of a blower)‚Ä¶
+// this function can be called and passed the amount by which the user‚Ä¶
+// has changed the height (delta).  This function then displays it in‚Ä¶
 // the Coordinate window.
 
 void DeltaCoordinateD (short d)

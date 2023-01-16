@@ -12,7 +12,7 @@
 
 //==============================================================  Functions
 //--------------------------------------------------------------  PasStringCopy
-// Given a source string and storage for a second, this function…
+// Given a source string and storage for a second, this function‚Ä¶
 // copies from one to the other.  It assumes Pascal style strings.
 
 void PasStringCopy (StringPtr p1, StringPtr p2)
@@ -26,9 +26,9 @@ void PasStringCopy (StringPtr p1, StringPtr p2)
 
 //--------------------------------------------------------------  WhichStringFirst
 
-// This is a sorting function that handles two Pascal strings.  It…
-// will return a 1 to indicate the 1st string is "greater", a 1 to…
-// indicate the 2nd was greater and a 0 to indicate that the strings…
+// This is a sorting function that handles two Pascal strings.  It‚Ä¶
+// will return a 1 to indicate the 1st string is "greater", a 1 to‚Ä¶
+// indicate the 2nd was greater and a 0 to indicate that the strings‚Ä¶
 // are equal.
 
 short WhichStringFirst (StringPtr p1, StringPtr p2)
@@ -83,7 +83,7 @@ short WhichStringFirst (StringPtr p1, StringPtr p2)
 
 //--------------------------------------------------------------  PasStringCopyNum
 
-// This function copies a specified number of characters from one…
+// This function copies a specified number of characters from one‚Ä¶
 // Pascal string to another.
 
 void PasStringCopyNum (StringPtr p1, StringPtr p2, short charsToCopy)
@@ -103,7 +103,7 @@ void PasStringCopyNum (StringPtr p1, StringPtr p2, short charsToCopy)
 }
 
 //--------------------------------------------------------------  PasStringConcat
-// This function concatenates the second Pascal string to the end of…
+// This function concatenates the second Pascal string to the end of‚Ä¶
 // the first Pascal string.
 
 void PasStringConcat (StringPtr p1, StringPtr p2)
@@ -132,9 +132,9 @@ void PasStringConcat (StringPtr p1, StringPtr p2)
 
 //--------------------------------------------------------------  GetLineOfText
 
-// This function walks through a source string and looks for an…
-// entire line of text.  A "line" of text is assumed to be bounded…
-// by carriage returns.  The index variable indicates which line…
+// This function walks through a source string and looks for an‚Ä¶
+// entire line of text.  A "line" of text is assumed to be bounded‚Ä¶
+// by carriage returns.  The index variable indicates which line‚Ä¶
 // is sought.
 
 void GetLineOfText (StringPtr srcStr, short index, StringPtr textLine)
@@ -209,8 +209,8 @@ void GetLineOfText (StringPtr srcStr, short index, StringPtr textLine)
 
 //--------------------------------------------------------------  WrapText
 
-// Given a string and the maximum number of characters to put on…
-// one line, this function goes through and inserts carriage returns…
+// Given a string and the maximum number of characters to put on‚Ä¶
+// one line, this function goes through and inserts carriage returns‚Ä¶
 // in order to ensure that no line of text exceeds maxChars.
 
 void WrapText (StringPtr theText, short maxChars)
@@ -274,24 +274,24 @@ void GetFirstWordOfString (StringPtr stringIn, StringPtr stringOut)
 
 //--------------------------------------------------------------  CollapseStringToWidth
 
-// Given a string and a maximum width (in pixels), this function…
-// calculates how wide the text would be drawn with the current…
-// font.  If the text would exceed our width limit, characters…
-// are dropped off the end of the string and "…" appended.
+// Given a string and a maximum width (in pixels), this function‚Ä¶
+// calculates how wide the text would be drawn with the current‚Ä¶
+// font.  If the text would exceed our width limit, characters‚Ä¶
+// are dropped off the end of the string and "‚Ä¶" appended.
 
 void CollapseStringToWidth (StringPtr theStr, short wide)
 {
 	short		dotsWide;
 	Boolean 	tooWide;
 	
-	dotsWide = StringWidth("\p…");
+	dotsWide = StringWidth("\p‚Ä¶");
 	tooWide = StringWidth(theStr) > wide;
 	while (tooWide)
 	{
 		theStr[0]--;
 		tooWide = ((StringWidth(theStr) + dotsWide) > wide);
 		if (!tooWide)
-			PasStringConcat(theStr, "\p…");
+			PasStringConcat(theStr, "\p‚Ä¶");
 	}
 }
 

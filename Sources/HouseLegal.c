@@ -35,8 +35,8 @@ extern	short		numberRooms;
 //==============================================================  Functions
 //--------------------------------------------------------------  KeepObjectLegal
 
-// Does a test of the current object active for any illegal boundsÉ
-// or values.  It corrects the erros and returns true if any changesÉ
+// Does a test of the current object active for any illegal boundsâ€¦
+// or values.  It corrects the erros and returns true if any changesâ€¦
 // were made.
 
 Boolean KeepObjectLegal (void)
@@ -700,7 +700,7 @@ void CompressHouse (void)
 	do
 	{
 		if ((*thisHouse)->rooms[roomNumber].suite != kRoomIsEmpty)
-		{									// if not an empty roomÉ
+		{									// if not an empty roomâ€¦
 			probe = 0;						// start looking for empty slot
 			probing = true;
 			do
@@ -759,7 +759,7 @@ void LopOffExtraRooms (void)
 	}
 	while (r > 0);
 	
-	if (count > 0)					// if there were trailing emptiesÉ
+	if (count > 0)					// if there were trailing emptiesâ€¦
 	{
 		r = (*thisHouse)->nRooms - count;
 		newSize = sizeof(houseType) + (sizeof(roomType) * (long)r);

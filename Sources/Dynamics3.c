@@ -106,7 +106,7 @@ void HandleDynamics (void)
 
 //--------------------------------------------------------------  HandleDynamics
 
-// This is the master function that calls all the various rendering handlers…
+// This is the master function that calls all the various rendering handlers‚Ä¶
 // above.
 
 void RenderDynamics (void)

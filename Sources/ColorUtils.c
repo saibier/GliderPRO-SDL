@@ -13,8 +13,8 @@
 //==============================================================  Functions
 //--------------------------------------------------------------  ColorText
 
-// Given a string and a color index (index into the current palette),…
-// this function draws text in that color.  It assumes the current port,…
+// Given a string and a color index (index into the current palette),‚Ä¶
+// this function draws text in that color.  It assumes the current port,‚Ä¶
 // the current font, the current pen location, etc.
 
 void ColorText (StringPtr theStr, long color)
@@ -30,7 +30,7 @@ void ColorText (StringPtr theStr, long color)
 
 //--------------------------------------------------------------  ColorRect
 
-// Given a rectangle and color index, this function draws a solid…
+// Given a rectangle and color index, this function draws a solid‚Ä¶
 // rectangle in that color.  Current port, pen mode, etc. assumed.
 
 void ColorRect (Rect *theRect, long color)
@@ -46,7 +46,7 @@ void ColorRect (Rect *theRect, long color)
 
 //--------------------------------------------------------------  ColorOval
 
-// Given a rectangle and color index, this function draws a solid…
+// Given a rectangle and color index, this function draws a solid‚Ä¶
 // oval in that color.  Current port, pen mode, etc. assumed.
 
 void ColorOval (Rect *theRect, long color)
@@ -62,7 +62,7 @@ void ColorOval (Rect *theRect, long color)
 
 //--------------------------------------------------------------  ColorRegion
 
-// Given a region and color index, this function draws a solid…
+// Given a region and color index, this function draws a solid‚Ä¶
 // region in that color.  Current port, pen mode, etc. assumed.
 
 void ColorRegion (RgnHandle theRgn, long color)
@@ -78,7 +78,7 @@ void ColorRegion (RgnHandle theRgn, long color)
 
 //--------------------------------------------------------------  ColorLine
 
-// Given a the end points for a line and color index, this function…
+// Given a the end points for a line and color index, this function‚Ä¶
 // draws a line in that color.  Current port, pen mode, etc. assumed.
 
 void ColorLine (short h0, short v0, short h1, short v1, long color)
@@ -95,9 +95,9 @@ void ColorLine (short h0, short v0, short h1, short v1, long color)
 
 //--------------------------------------------------------------  HiliteRect
 
-// Given a rect and two hilite colors, this function frames the top and…
-// left edges of the rect with color 1 and frames the bottom and right…
-// sides with color 2.  A rect can be made to appear "hi-lit" or "3D"…
+// Given a rect and two hilite colors, this function frames the top and‚Ä¶
+// left edges of the rect with color 1 and frames the bottom and right‚Ä¶
+// sides with color 2.  A rect can be made to appear "hi-lit" or "3D"‚Ä¶
 // in this way.
 
 void HiliteRect (Rect *theRect, short color1, short color2)
@@ -114,7 +114,7 @@ void HiliteRect (Rect *theRect, short color1, short color2)
 
 //--------------------------------------------------------------  ColorFrameRect
 
-// Given a rectangle and color index, this function frames a…
+// Given a rectangle and color index, this function frames a‚Ä¶
 // rectangle in that color.  Current port, pen mode, etc. assumed.
 
 void ColorFrameRect (Rect *theRect, long color)
@@ -130,7 +130,7 @@ void ColorFrameRect (Rect *theRect, long color)
 
 //--------------------------------------------------------------  ColorFrameWHRect
 
-// Given a the top-left corner of a rectangle, its width and height,…
+// Given a the top-left corner of a rectangle, its width and height,‚Ä¶
 // and a color index, this function frames a rectangle in that color.
 // Current port, pen mode, etc. assumed.
 
@@ -147,7 +147,7 @@ void ColorFrameWHRect (short left, short top, short wide, short high, long color
 
 //--------------------------------------------------------------  ColorFrameOval
 
-// Given a rectangle and color index, this function frames an…
+// Given a rectangle and color index, this function frames an‚Ä¶
 // oval in that color.  Current port, pen mode, etc. assumed.
 
 void ColorFrameOval (Rect *theRect, long color)
@@ -163,7 +163,7 @@ void ColorFrameOval (Rect *theRect, long color)
 
 //--------------------------------------------------------------  LtGrayForeColor
 
-// This function finds the closest match to a "light gray" in the…
+// This function finds the closest match to a "light gray" in the‚Ä¶
 // current palette and sets the pen color to that.
 
 void LtGrayForeColor (void)
@@ -179,7 +179,7 @@ void LtGrayForeColor (void)
 
 //--------------------------------------------------------------  GrayForeColor
 
-// This function finds the closest match to a "medium gray" in the…
+// This function finds the closest match to a "medium gray" in the‚Ä¶
 // current palette and sets the pen color to that.
 
 void GrayForeColor (void)
@@ -195,7 +195,7 @@ void GrayForeColor (void)
 
 //--------------------------------------------------------------  DkGrayForeColor
 
-// This function finds the closest match to a "dark gray" in the…
+// This function finds the closest match to a "dark gray" in the‚Ä¶
 // current palette and sets the pen color to that.
 
 void DkGrayForeColor (void)
@@ -211,8 +211,8 @@ void DkGrayForeColor (void)
 
 //--------------------------------------------------------------  RestoreColorsSlam
 
-// This function forces the Macintosh to rebuild the palette.  It is…
-// called to restore a sense or normality after some serious munging…
+// This function forces the Macintosh to rebuild the palette.  It is‚Ä¶
+// called to restore a sense or normality after some serious munging‚Ä¶
 // with the palette.
 
 void RestoreColorsSlam (void)

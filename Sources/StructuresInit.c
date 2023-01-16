@@ -53,7 +53,7 @@ extern	short		wasScoreboardMode;
 
 //==============================================================  Functions
 //--------------------------------------------------------------  InitScoreboardMap
-// Any graphics and structures relating to the scoreboard that appears…
+// Any graphics and structures relating to the scoreboard that appears‚Ä¶
 // across the top of the game are initialized and loaded up here.
 
 void InitScoreboardMap (void)
@@ -163,7 +163,7 @@ void InitScoreboardMap (void)
 }
 
 //--------------------------------------------------------------  InitGliderMap
-// Graphics and structures relating to the little paper glider (the…
+// Graphics and structures relating to the little paper glider (the‚Ä¶
 // player) are cretaed, loaded up and initialized here.
 
 void InitGliderMap (void)

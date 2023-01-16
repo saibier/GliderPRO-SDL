@@ -163,8 +163,8 @@ Boolean InitializeEmptyHouse (void)
 
 //--------------------------------------------------------------  RealRoomNumberCount
 
-// Returns the real number of rooms in a house (some rooms may still…
-// be place-holders - they were deleted earlier and are flagged as…
+// Returns the real number of rooms in a house (some rooms may still‚Ä¶
+// be place-holders - they were deleted earlier and are flagged as‚Ä¶
 // deleted but still occupy space in the file).
 
 short RealRoomNumberCount (void)
@@ -190,7 +190,7 @@ short RealRoomNumberCount (void)
 
 //--------------------------------------------------------------  GetFirstRoomNumber
 
-// Returns the room number (indicee into house file) of the room where…
+// Returns the room number (indicee into house file) of the room where‚Ä¶
 // the player is to begin.
 
 short GetFirstRoomNumber (void)
@@ -218,7 +218,7 @@ short GetFirstRoomNumber (void)
 
 //--------------------------------------------------------------  WhereDoesGliderBegin
 
-// Returns a rectangle indicating where in the first room the player's…
+// Returns a rectangle indicating where in the first room the player's‚Ä¶
 // glider is to appear.
 
 void WhereDoesGliderBegin (Rect *theRect, short mode)
@@ -308,9 +308,9 @@ short CountHouseLinks (void)
 
 //--------------------------------------------------------------  GenerateLinksList
 
-// Generates a list of all objects that have links and what rooms…
-// and objects they are linked to.  It is called in order to preserve…
-// the links if the objects or rooms in a house are to be shuffled…
+// Generates a list of all objects that have links and what rooms‚Ä¶
+// and objects they are linked to.  It is called in order to preserve‚Ä¶
+// the links if the objects or rooms in a house are to be shuffled‚Ä¶
 // around. 
 
 #ifndef COMPILEDEMO
@@ -505,7 +505,7 @@ void SortHouseObjects (void)
 
 //--------------------------------------------------------------  CountRoomsVisited
 
-// Goes through and counts the number of rooms a player has been to in…
+// Goes through and counts the number of rooms a player has been to in‚Ä¶
 // the current game.
 
 short CountRoomsVisited (void)
@@ -532,7 +532,7 @@ short CountRoomsVisited (void)
 
 //--------------------------------------------------------------  GenerateRetroLinks
 
-// Walk entire house looking for objects which are linked to objects…
+// Walk entire house looking for objects which are linked to objects‚Ä¶
 // in the current room.
 
 void GenerateRetroLinks (void)
@@ -740,7 +740,7 @@ pascal Boolean GoToFilter (DialogPtr dial, EventRecord *event, short *item)
 
 //--------------------------------------------------------------  ConvertHouseVer1To2
 
-// This function goes through an old version 1 house and converts it…
+// This function goes through an old version 1 house and converts it‚Ä¶
 // to version 2.
 
 void ConvertHouseVer1To2 (void)
@@ -828,7 +828,7 @@ void ShiftWholeHouse (short howFar)
 	short		i, h, numRooms;
 	char		wasState;
 	
-	OpenMessageWindow("\pShifting Whole House…");
+	OpenMessageWindow("\pShifting Whole House‚Ä¶");
 	SpinCursor(3);
 	
 	CopyThisRoomToRoom();

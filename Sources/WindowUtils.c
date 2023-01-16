@@ -21,7 +21,7 @@ WindowPtr	mssgWindow;
 //==============================================================  Functions
 //--------------------------------------------------------------  GetWindowTopLeft
 
-// Returns the top left coordinate of the specified window.  Corrdinates…
+// Returns the top left coordinate of the specified window.  Corrdinates‚Ä¶
 // are (of course) global (local coordinates would always be (0, 0)).
 
 void GetWindowLeftTop (WindowPtr theWindow, short *left, short *top)
@@ -72,8 +72,8 @@ void GetLocalWindowRect (WindowPtr theWindow, Rect *bounds)
 }
 
 //--------------------------------------------------------------  FlagWindowFloating
-// Sets the specified window's windowKind field to my own kFloatingKind…
-// variable.  This way I can examine a window later and determine if…
+// Sets the specified window's windowKind field to my own kFloatingKind‚Ä¶
+// variable.  This way I can examine a window later and determine if‚Ä¶
 // it's supposed to "float" above all other windows.
 /*
 void FlagWindowFloating (WindowPtr theWindow)
@@ -87,7 +87,7 @@ void FlagWindowFloating (WindowPtr theWindow)
 
 //--------------------------------------------------------------  IsWindowFloating
 
-// Tests a specific window to see if it is supposed to "float" above all…
+// Tests a specific window to see if it is supposed to "float" above all‚Ä¶
 // other windows.
 
 Boolean	IsWindowFloating (WindowPtr theWindow)
@@ -129,7 +129,7 @@ void OpenMessageWindow (StringPtr title)
 
 //--------------------------------------------------------------  SetMessageWindowMessage
 
-// For the above message window, this function displays a string of text…
+// For the above message window, this function displays a string of text‚Ä¶
 // in the center of the window.
 
 void SetMessageWindowMessage (StringPtr message)
@@ -160,7 +160,7 @@ void CloseMessageWindow (void)
 
 //--------------------------------------------------------------  CloseThisWindow
 
-// Given a specific window, this function will close it and set the window…
+// Given a specific window, this function will close it and set the window‚Ä¶
 // pointer to null.
 
 void CloseThisWindow (WindowPtr *theWindow)

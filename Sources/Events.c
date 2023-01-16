@@ -40,7 +40,7 @@ extern	Boolean		autoRoomEdit, newRoomNow, isPlayMusicIdle;
 
 //==============================================================  Functions
 //--------------------------------------------------------------  BitchAboutColorDepth
-// Display a dialog that alerts the user that they have switched the bit…
+// Display a dialog that alerts the user that they have switched the bit‚Ä¶
 // depth of the monitor under our noses.  They must return it to previous.
 
 short BitchAboutColorDepth (void)
@@ -473,7 +473,7 @@ void HandleIdleTask (void)
 }
 
 //--------------------------------------------------------------  HandleEvent
-// "Master" function that tests for events and calls the above functions to…
+// "Master" function that tests for events and calls the above functions to‚Ä¶
 // handle each event type.  Not called during and actual game.
 
 void HandleEvent (void)
@@ -542,7 +542,7 @@ void HandleEvent (void)
 
 //--------------------------------------------------------------  HiliteAllWindows
 
-// Ugly kludge in order to keep "floating windows" (palettes) on top of…
+// Ugly kludge in order to keep "floating windows" (palettes) on top of‚Ä¶
 // the main window.
 
 void HiliteAllWindows (void)
@@ -561,7 +561,7 @@ void HiliteAllWindows (void)
 
 //--------------------------------------------------------------  IgnoreThisClick
 
-// Another inelegant kludge designed to temporarily prevent an unwanted…
+// Another inelegant kludge designed to temporarily prevent an unwanted‚Ä¶
 // double-click to be registered.
 
 void IgnoreThisClick (void)

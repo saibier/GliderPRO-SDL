@@ -197,8 +197,8 @@ void CheckEscapeUpTwo (gliderPtr thisGlider)
 	}
 	else if (thisBackground == kDirt)
 	{
-		leftTile = thisGlider->dest.left >> 6;		// ึ 64
-		rightTile = thisGlider->dest.right >> 6;	// ึ 64
+		leftTile = thisGlider->dest.left >> 6;		// รท 64
+		rightTile = thisGlider->dest.right >> 6;	// รท 64
 		
 		if ((leftTile >= 0) && (leftTile < 8) && 
 				(rightTile >= 0) && (rightTile < 8))
@@ -254,8 +254,8 @@ void CheckEscapeUp (gliderPtr thisGlider)
 	}
 	else if (thisBackground == kDirt)
 	{
-		leftTile = thisGlider->dest.left >> 6;		// ึ 64
-		rightTile = thisGlider->dest.right >> 6;	// ึ 64
+		leftTile = thisGlider->dest.left >> 6;		// รท 64
+		rightTile = thisGlider->dest.right >> 6;	// รท 64
 		
 		if ((leftTile >= 0) && (leftTile < 8) && 
 				(rightTile >= 0) && (rightTile < 8))
@@ -309,8 +309,8 @@ void CheckEscapeDownTwo (gliderPtr thisGlider)
 	}
 	else if (thisBackground == kDirt)
 	{
-		leftTile = thisGlider->dest.left >> 6;		// ึ 64
-		rightTile = thisGlider->dest.right >> 6;	// ึ 64
+		leftTile = thisGlider->dest.left >> 6;		// รท 64
+		rightTile = thisGlider->dest.right >> 6;	// รท 64
 		
 		if ((leftTile >= 0) && (leftTile < 8) && 
 				(rightTile >= 0) && (rightTile < 8))
@@ -388,8 +388,8 @@ void CheckEscapeDown (gliderPtr thisGlider)
 	}
 	else if (thisBackground == kDirt)
 	{
-		leftTile = thisGlider->dest.left >> 6;		// ึ 64
-		rightTile = thisGlider->dest.right >> 6;	// ึ 64
+		leftTile = thisGlider->dest.left >> 6;		// รท 64
+		rightTile = thisGlider->dest.right >> 6;	// รท 64
 		
 		if ((leftTile >= 0) && (leftTile < 8) && (rightTile >= 0) && (rightTile < 8))
 		{
@@ -451,7 +451,7 @@ void CheckRoofCollision (gliderPtr thisGlider)
 {
 	short		offset, tileOver;
 	
-	offset = (thisGlider->dest.left + kHalfGliderWide) >> 6;	// ึ 64
+	offset = (thisGlider->dest.left + kHalfGliderWide) >> 6;	// รท 64
 	if ((offset >= 0) && (offset <= 7) && (!thisGlider->sliding))
 	{
 		tileOver = thisTiles[offset];

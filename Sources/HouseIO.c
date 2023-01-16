@@ -309,7 +309,7 @@ Boolean SaveHouseAs (void)
 #endif
 
 //--------------------------------------------------------------  ReadHouse
-// With a house open, this function reads in the actual bits of data…
+// With a house open, this function reads in the actual bits of data‚Ä¶
 // into memory.
 
 Boolean ReadHouse (void)
@@ -589,7 +589,7 @@ void CloseHouseResFork (void)
 }
 
 //--------------------------------------------------------------  QuerySaveChanges
-// If changes were made, this function will present the user with a…
+// If changes were made, this function will present the user with a‚Ä¶
 // dialog asking them if they would like to save the changes.
 
 #ifndef COMPILEDEMO
@@ -633,8 +633,8 @@ Boolean QuerySaveChanges (void)
 #endif
 
 //--------------------------------------------------------------  YellowAlert
-// This is a dialog used to present an error code and explanation…
-// to the user when a non-lethal error has occurred.  Ideally, of…
+// This is a dialog used to present an error code and explanation‚Ä¶
+// to the user when a non-lethal error has occurred.  Ideally, of‚Ä¶
 // course, this never is called.
 
 void YellowAlert (short whichAlert, short identifier)

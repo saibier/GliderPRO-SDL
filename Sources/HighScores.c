@@ -134,9 +134,9 @@ void DrawHighScores (void)
 	TextFace(bold);
 	TextSize(14);
 	
-	PasStringCopy("\p¥ ", tempStr);
+	PasStringCopy("\pâ€¢ ", tempStr);
 	PasStringConcat(tempStr, thisHouseName);
-	PasStringConcat(tempStr, "\p ¥");
+	PasStringConcat(tempStr, "\p â€¢");
 	MoveTo(scoreLeft + ((kScoreWide - StringWidth(tempStr)) / 2) - 1, dropIt - 66);
 	ForeColor(blackColor);
 	DrawString(tempStr);
@@ -367,8 +367,8 @@ void ZeroAllButHighestScore (void)
 }
 
 //--------------------------------------------------------------  TestHighScore
-// This function is called after a game ends in order to test theÉ
-// current high score against the high score list.  It returns trueÉ
+// This function is called after a game ends in order to test theâ€¦
+// current high score against the high score list.  It returns trueâ€¦
 // if the player is on the high score list now.
 
 Boolean TestHighScore (void)
@@ -601,8 +601,8 @@ pascal Boolean BannerFilter (DialogPtr dial, EventRecord *event, short *item)
 }
 
 //--------------------------------------------------------------  GetHighScoreBanner
-// A player who gets the #1 slot gets to enter a short message (thatÉ
-// appears across the top of the high scores list).  This dialogÉ
+// A player who gets the #1 slot gets to enter a short message (thatâ€¦
+// appears across the top of the high scores list).  This dialogâ€¦
 // gets that message.
 
 void GetHighScoreBanner (void)
@@ -651,7 +651,7 @@ Boolean CreateScoresFolder (long *scoresDirID)
 	if (!CheckFileError(theErr, "\pPrefs Folder"))
 		return (false);
 	
-	theErr = FSMakeFSSpec(volRefNum, prefsDirID, "\pG-PRO Scores Ä", &scoresSpec);
+	theErr = FSMakeFSSpec(volRefNum, prefsDirID, "\pG-PRO Scores Æ’", &scoresSpec);
 	
 	theErr = FSpDirCreate(&scoresSpec, smSystemScript, scoresDirID);
 	if (!CheckFileError(theErr, "\pHigh Scores Folder"))
@@ -676,7 +676,7 @@ Boolean FindHighScoresFolder (short *volRefNum, long *scoresDirID)
 	if (!CheckFileError(theErr, "\pPrefs Folder"))
 		return (false);
 	
-	PasStringCopy("\pG-PRO Scores Ä", nameString);
+	PasStringCopy("\pG-PRO Scores Æ’", nameString);
 	count = 1;
 	foundIt = false;
 	
@@ -693,7 +693,7 @@ Boolean FindHighScoresFolder (short *volRefNum, long *scoresDirID)
 		{
 			if ((theBlock.dirInfo.ioFlAttrib & 0x10) == 0x10)
 			{
-				if (EqualString(theBlock.dirInfo.ioNamePtr, "\pG-PRO Scores Ä", 
+				if (EqualString(theBlock.dirInfo.ioNamePtr, "\pG-PRO Scores Æ’", 
 						true, true))
 				{
 					foundIt = true;

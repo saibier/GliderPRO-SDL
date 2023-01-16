@@ -54,7 +54,7 @@ extern	Boolean		playing, shadowVisible, demoGoing;
 //==============================================================  Functions
 //--------------------------------------------------------------  DoGameOver
 
-// Handles a game over.  This is a game over where the player has…
+// Handles a game over.  This is a game over where the player has‚Ä¶
 // completed the house.
 
 void DoGameOver (void)
@@ -70,7 +70,7 @@ void DoGameOver (void)
 
 //--------------------------------------------------------------  SetUpFinalScreen
 
-// This sets up the game over screen (again, this function is for when…
+// This sets up the game over screen (again, this function is for when‚Ä¶
 // the player completes the house).
 
 void SetUpFinalScreen (void)
@@ -130,7 +130,7 @@ void SetUpFinalScreen (void)
 
 //--------------------------------------------------------------  DoGameOverStarAnimation
 
-// This handles the falling stars and the flying angel when a player…
+// This handles the falling stars and the flying angel when a player‚Ä¶
 // completes a house.
 
 void DoGameOverStarAnimation (void)
@@ -231,7 +231,7 @@ void DoGameOverStarAnimation (void)
 
 //--------------------------------------------------------------  FlagGameOver
 
-// Called to indicate (flag) that a game is over.  Actual game over…
+// Called to indicate (flag) that a game is over.  Actual game over‚Ä¶
 // sequence comes up after a short delay.
 
 void FlagGameOver (void)
@@ -242,8 +242,8 @@ void FlagGameOver (void)
 }
 
 //--------------------------------------------------------------  InitDiedGameOver
-// This is called when a game is over due to the fact that the player…
-// lost their last glider (died), not due to getting through the entire…
+// This is called when a game is over due to the fact that the player‚Ä¶
+// lost their last glider (died), not due to getting through the entire‚Ä¶
 // house.  This function initializes the strucures/variables.
 
 void InitDiedGameOver (void)
@@ -395,7 +395,7 @@ void HandlePages (void)
 
 //--------------------------------------------------------------  DrawPages
 
-// This function does the drawing for the pieces of paper that blow… 
+// This function does the drawing for the pieces of paper that blow‚Ä¶ 
 // across the screen.
 
 void DrawPages (void)
@@ -436,8 +436,8 @@ void DrawPages (void)
 
 //--------------------------------------------------------------  DoDiedGameOver
 
-// This is called when a game is over due to the fact that the player…
-// lost their last glider (died), not due to getting through the entire…
+// This is called when a game is over due to the fact that the player‚Ä¶
+// lost their last glider (died), not due to getting through the entire‚Ä¶
 // house.
 
 void DoDiedGameOver (void)

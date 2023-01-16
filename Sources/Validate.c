@@ -41,7 +41,7 @@ Boolean		legitMasterDisk, bailOut, didValidation;
 /*
 //==============================================================  Functions
 //--------------------------------------------------------------  GetSystemVolume
-// Finds a hard volume reference number for the volume the System folder…
+// Finds a hard volume reference number for the volume the System folder‚Ä¶
 // resides on.
 
 short GetSystemVolume (void)
@@ -89,8 +89,8 @@ long VolumeCreated (void)
 }
 
 //--------------------------------------------------------------  VolumeMatchesPrefs 
-// Uses an "encryption mask" on the volume creation date and compares…
-// it with a value stored in the games prefs.  Returns whether or not…
+// Uses an "encryption mask" on the volume creation date and compares‚Ä¶
+// it with a value stored in the games prefs.  Returns whether or not‚Ä¶
 // we have a match.
 
 Boolean VolumeMatchesPrefs (long prefsSay, long *thisEncrypt)
@@ -119,7 +119,7 @@ Boolean VolumeMatchesPrefs (long prefsSay, long *thisEncrypt)
 }
 
 //--------------------------------------------------------------  NoFloppyException 
-// Some machines may not have floppy drives on them at all.  This function…
+// Some machines may not have floppy drives on them at all.  This function‚Ä¶
 // determines if this is one of those "special cases".
 
 Boolean NoFloppyException (void)
@@ -185,7 +185,7 @@ Boolean LoopThruMountedVolumes (void)
 }
 
 //--------------------------------------------------------------  SpecificVolumeCreated
-// This function looks at floppy disks inserted and reads the creation…
+// This function looks at floppy disks inserted and reads the creation‚Ä¶
 // date off.  It is looking for a specific creation date.
 
 Boolean SpecificVolumeCreated (void)
@@ -238,7 +238,7 @@ Boolean SpecificVolumeCreated (void)
 }
 
 //--------------------------------------------------------------  MasterFilter
-// Dialog filter for the function that follows this one.  It handles…
+// Dialog filter for the function that follows this one.  It handles‚Ä¶
 // disk inserts and ejects disks that don't match in the previous function.
 
 pascal Boolean MasterFilter (DialogPtr theDialog, EventRecord *theEvent, short *itemHit)
@@ -320,7 +320,7 @@ pascal Boolean MasterFilter (DialogPtr theDialog, EventRecord *theEvent, short *
 }
 
 //--------------------------------------------------------------  GetMasterDisk
-// Brings up a dialog asking the user to insert their "master disk" or…
+// Brings up a dialog asking the user to insert their "master disk" or‚Ä¶
 // quit.  It returns true if disk verification succeeded.
 
 Boolean GetMasterDisk (void)
@@ -364,7 +364,7 @@ Boolean GetMasterDisk (void)
 }
 */
 //--------------------------------------------------------------  ValidInstallation
-// "Master function" tha calls all the above.  It coordinates a key…
+// "Master function" tha calls all the above.  It coordinates a key‚Ä¶
 // disk copy protection scheme.
 
 Boolean ValidInstallation (Boolean returnToFinder)

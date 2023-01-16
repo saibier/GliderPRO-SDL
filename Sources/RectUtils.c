@@ -13,7 +13,7 @@
 
 //==============================================================  Functions
 //--------------------------------------------------------------  FrameWHRect
-// Given the top left corner and a width and height, this function…
+// Given the top left corner and a width and height, this function‚Ä¶
 // simply creates the necessary rectangle and frames it.
 
 void FrameWHRect (short left, short top, short wide, short high)
@@ -28,7 +28,7 @@ void FrameWHRect (short left, short top, short wide, short high)
 }
 
 //--------------------------------------------------------------  NormalizeRect
-// This function ensures that a rect's top is less than it's bottom…
+// This function ensures that a rect's top is less than it's bottom‚Ä¶
 // and that left is less than right.
 
 void NormalizeRect (Rect *theRect)
@@ -51,7 +51,7 @@ void NormalizeRect (Rect *theRect)
 }
 
 //--------------------------------------------------------------  ZeroRectCorner
-// The rect passed in is slid over so that its top left corner is…
+// The rect passed in is slid over so that its top left corner is‚Ä¶
 // at coordinates (0, 0).
 
 void ZeroRectCorner (Rect *theRect)		// Offset rect to (0, 0)
@@ -63,7 +63,7 @@ void ZeroRectCorner (Rect *theRect)		// Offset rect to (0, 0)
 }
 
 //--------------------------------------------------------------  CenterRectOnPoint
-// Given a rectangle and a point, this function centers the rectangle…
+// Given a rectangle and a point, this function centers the rectangle‚Ä¶
 // on that point.
 
 void CenterRectOnPoint (Rect *theRect, Point where)
@@ -136,7 +136,7 @@ void LocalToGlobalRect (Rect *theRect)
 }
 
 //--------------------------------------------------------------  CenterRectInRect
-// Given two rectangles, this function centers the first rectangle…
+// Given two rectangles, this function centers the first rectangle‚Ä¶
 // within the second.  The second rect is unchanged.
 
 void CenterRectInRect (Rect *rectA, Rect *rectB)
@@ -175,7 +175,7 @@ void VOffsetRect (Rect *theRect, short v)
 
 //--------------------------------------------------------------  IsRectLeftOfRect
 
-// Given two rects, this function returns true if the first rectangle…
+// Given two rects, this function returns true if the first rectangle‚Ä¶
 // is to the left of the second.
 
 Boolean IsRectLeftOfRect (Rect *rect1, Rect *rect2)
@@ -204,7 +204,7 @@ void QOffsetRect (Rect *theRect, short h, short v)
 
 //--------------------------------------------------------------  QSetRect
 
-// This also duplicates a ToolBox call.  It's needed often though, so…
+// This also duplicates a ToolBox call.  It's needed often though, so‚Ä¶
 // any gains in speed are nice.  It sets up a rect structure.
 
 void QSetRect (Rect *theRect, short l, short t, short r, short b)
@@ -216,8 +216,8 @@ void QSetRect (Rect *theRect, short l, short t, short r, short b)
 }
 
 //--------------------------------------------------------------  ForceRectInRect
-// Given a source rectangle and a bounding rectangle, this function…
-// will clip the source rect so that it is entirely within the bounding…
+// Given a source rectangle and a bounding rectangle, this function‚Ä¶
+// will clip the source rect so that it is entirely within the bounding‚Ä¶
 // rect.  It returns true if any clippiung was necessary.
 
 Boolean ForceRectInRect (Rect *small, Rect *large)
@@ -271,7 +271,7 @@ Boolean ForceRectInRect (Rect *small, Rect *large)
 
 //--------------------------------------------------------------  QUnionSimilarRect
 
-// Given 2 rects that are assumed to have the same width and height,…
+// Given 2 rects that are assumed to have the same width and height,‚Ä¶
 // this function returns a 3rd rect that is the union of those two.
 
 void QUnionSimilarRect (Rect *rectA, Rect *rectB, Rect *rectC)
@@ -298,7 +298,7 @@ void QUnionSimilarRect (Rect *rectA, Rect *rectB, Rect *rectC)
 }
 
 //--------------------------------------------------------------  FrameRectSansCorners
-// This is similar to the ToolBox FrameRect() call.  However, it doesn't…
+// This is similar to the ToolBox FrameRect() call.  However, it doesn't‚Ä¶
 // draw the pixels in the 4 corners of the Rect.
 
 void FrameRectSansCorners (Rect *theRect)

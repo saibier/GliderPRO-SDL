@@ -329,12 +329,12 @@ void ListAllLocalObjects (void)
 	
 	HSetState((Handle)thisHouse, wasState);
 	
-	for (i = 0; i < numMasterObjects; i++)				// correlate links withÉ
+	for (i = 0; i < numMasterObjects; i++)				// correlate links withâ€¦
 	{													// index into this list
 		if ((masterObjects[i].roomLink != -1) && 		// if object has a link
 				(masterObjects[i].objectLink != -1))
 		{
-			for (n = 0; n < numMasterObjects; n++)		// search for the objectÉ
+			for (n = 0; n < numMasterObjects; n++)		// search for the objectâ€¦
 			{											// linked to in this list
 				if ((masterObjects[i].roomLink == masterObjects[n].roomNum) && 
 						(masterObjects[i].objectLink == masterObjects[n].objectNum))
@@ -883,8 +883,8 @@ void BringSendFrontBack (Boolean bringFront)
 	short		sorted[kMaxRoomObs];
 	char		wasState;
 	
-	if (bringFront)							// No need to bring to frontÉ
-	{										// or send to back if the objectÉ
+	if (bringFront)							// No need to bring to frontâ€¦
+	{										// or send to back if the objectâ€¦
 		if (objActive == (kMaxRoomObs - 1))	// in question is already front-
 			return;							// most or backmost.
 	}
@@ -894,7 +894,7 @@ void BringSendFrontBack (Boolean bringFront)
 			return;
 	}
 	
-	CopyThisRoomToRoom();					// Any changes to room writtenÉ
+	CopyThisRoomToRoom();					// Any changes to room writtenâ€¦
 											// back to the house handle.
 	numLinks = CountHouseLinks();			// Determine space needed for all links.
 	if (numLinks != 0)						// Create links list of ALL house links.
@@ -906,7 +906,7 @@ void BringSendFrontBack (Boolean bringFront)
 			YellowAlert(kYellowCantOrderLinks, MemError());
 			return;
 		}
-		GenerateLinksList();				// Fill in links list with src/destÉ
+		GenerateLinksList();				// Fill in links list with src/destâ€¦
 	}										// data on objects and room numbers.
 	
 	wasState = HGetState((Handle)thisHouse);
@@ -948,7 +948,7 @@ void BringSendFrontBack (Boolean bringFront)
 	for (i = 0; i < kMaxRoomObs; i++)		// Set up retro-ordered array.
 		sorted[sorting[i]] = i;
 	
-	for (i = 0; i < numLinks; i++)			// Walk links list in order to assignÉ
+	for (i = 0; i < numLinks; i++)			// Walk links list in order to assignâ€¦
 	{										// corrected links to objects moved.
 		if (linksList[i].destRoom == thisRoomNumber)
 		{									// Does link point to room we re-ordered?

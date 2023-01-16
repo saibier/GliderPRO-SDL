@@ -34,8 +34,8 @@ extern	Boolean		quickerTransitions, demoGoing, isUseSecondScreen;
 
 //==============================================================  Functions
 //--------------------------------------------------------------  DrawBanner
-// Displays opening banner (when a new game is begun).  The banner looks…
-// like a sheet of notebook paper.  The text printed on it is specified…
+// Displays opening banner (when a new game is begun).  The banner looks‚Ä¶
+// like a sheet of notebook paper.  The text printed on it is specified‚Ä¶
 // by the author of the house.
 
 void DrawBanner (Point *topLeft)
@@ -198,8 +198,8 @@ void BringUpBanner (void)
 }
 
 //--------------------------------------------------------------  DisplayStarsRemaining
-// This brings up a small message indicating the number of stars remaining…
-// in a house.  It comes up when the player gets a star (the game is paused…
+// This brings up a small message indicating the number of stars remaining‚Ä¶
+// in a house.  It comes up when the player gets a star (the game is paused‚Ä¶
 // and the user informed as to how many remain).
 
 void DisplayStarsRemaining (void)

@@ -74,7 +74,7 @@ void InitializeMenus (void)
 
 //--------------------------------------------------------------  GetExtraCursors
 
-// Extra cursors (custom cursors) like the "hand" and various room…
+// Extra cursors (custom cursors) like the "hand" and various room‚Ä¶
 // editing cursors are loaded up.
 
 void GetExtraCursors (void)
@@ -112,7 +112,7 @@ void GetExtraCursors (void)
 
 //--------------------------------------------------------------  VariableInit
 
-// All the simple interface variables are intialized here - Booleans,…
+// All the simple interface variables are intialized here - Booleans,‚Ä¶
 // shorts, a few Rects, etc.
 
 void VariableInit (void)

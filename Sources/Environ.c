@@ -432,7 +432,7 @@ void SwitchDepthOrAbort (void)
 }
 
 //--------------------------------------------------------------  CheckOurEnvirons  
-// Calls all the above functions in order to fill out a sort of "spec sheet"…
+// Calls all the above functions in order to fill out a sort of "spec sheet"‚Ä¶
 // for the current Mac.
 
 void CheckOurEnvirons (void)
@@ -555,8 +555,8 @@ void RestoreColorDepth (void)
 
 //--------------------------------------------------------------  CheckMemorySize
 
-// Tests for a specific amount of memory available.  If the required memory…
-// is not available, attempts to turn off various game features (music, etc.)…
+// Tests for a specific amount of memory available.  If the required memory‚Ä¶
+// is not available, attempts to turn off various game features (music, etc.)‚Ä¶
 // in order to accomodate the constrained memory available.
 
 void CheckMemorySize (void)
@@ -693,7 +693,7 @@ void CheckMemorySize (void)
 
 //--------------------------------------------------------------  SetAppMemorySize
 
-// Physically changes the 'SIZE' resource of the app so that when launched again,…
+// Physically changes the 'SIZE' resource of the app so that when launched again,‚Ä¶
 // the Finder will give us enough memory to fully run the game (God, we hope!).
 
 void SetAppMemorySize (long newSize)

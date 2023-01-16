@@ -159,7 +159,7 @@ void UpdateMenusHouseClosed (void)
 }
 
 //--------------------------------------------------------------  UpdateClipboardMenus
-// Set the Cut/Copy/Paste menus to reflect if we have data in the…
+// Set the Cut/Copy/Paste menus to reflect if we have data in the‚Ä¶
 // Mac's "clipboard" or not.
 
 void UpdateClipboardMenus (void)
@@ -235,9 +235,9 @@ void UpdateClipboardMenus (void)
 }
 
 //--------------------------------------------------------------  UpdateMenus
-// Called whenever a significant change to the environment has taken…
-// place and some of the menu states may have changes (for example,…
-// a menui was grayed out before becuase it wasn't an option - now…
+// Called whenever a significant change to the environment has taken‚Ä¶
+// place and some of the menu states may have changes (for example,‚Ä¶
+// a menui was grayed out before becuase it wasn't an option - now‚Ä¶
 // perhaps the situation has changed and we want the menu to be "usable").
 
 void UpdateMenus (Boolean newMode)
@@ -585,7 +585,7 @@ void DoHouseMenu (short theItem)
 }
 
 //--------------------------------------------------------------  DoMenuChoice
-// Users has selected a menu item - determin which menu was selected…
+// Users has selected a menu item - determin which menu was selected‚Ä¶
 // and call the appropriate function above.
 
 void DoMenuChoice (long menuChoice)
@@ -703,8 +703,8 @@ pascal Boolean ResumeFilter (DialogPtr dial, EventRecord *event, short *item)
 }
 
 //--------------------------------------------------------------  QueryResumeGame
-// Dialog that asks user whether they want to resume a saved game or…
-// begin a new one.  It displays a little info on the state of their…
+// Dialog that asks user whether they want to resume a saved game or‚Ä¶
+// begin a new one.  It displays a little info on the state of their‚Ä¶
 // saved game (number of glider left, points, etc.).
 
 short QueryResumeGame (void)
@@ -759,8 +759,8 @@ short QueryResumeGame (void)
 }
 
 //--------------------------------------------------------------  DoNotInDemo
-// Only compiled for "demo version" of Glider PRO.  It brings up a…
-// dialog that says, essentially, "x" feature is  not implemented in…
+// Only compiled for "demo version" of Glider PRO.  It brings up a‚Ä¶
+// dialog that says, essentially, "x" feature is  not implemented in‚Ä¶
 // the demo version.
 
 #ifdef COMPILEDEMO
@@ -786,7 +786,7 @@ void HeyYourPissingAHighScore (void)
 }
 
 //--------------------------------------------------------------  OpenCloseEditWindows
-// Function goes through and either closes or opens all the various…
+// Function goes through and either closes or opens all the various‚Ä¶
 // editing windows (in response to switching in or out of editor).
 
 void OpenCloseEditWindows (void)

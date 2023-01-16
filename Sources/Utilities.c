@@ -37,7 +37,7 @@ Point MyGetGlobalMouse (void)
 
 //--------------------------------------------------------------  ToolBoxInit
 
-// The standard ToolBox intialization that must happen when any Mac…
+// The standard ToolBox intialization that must happen when any Mac‚Ä¶
 // program first launches.
 
 void ToolBoxInit (void)
@@ -129,7 +129,7 @@ UInt32 RandomLongQUS (void)
 
 //--------------------------------------------------------------  RedAlert
 
-// Called when we must quit app.  Brings up a dialog informing user…
+// Called when we must quit app.  Brings up a dialog informing user‚Ä¶
 // of the problem and the exits to shell.
 
 void RedAlert (short errorNumber)
@@ -261,7 +261,7 @@ void CreateOffScreenPixMap (Rect *theRect, CGrafPtr *offScreen)
 }
 */
 //--------------------------------------------------------------------  CreateOffScreenGWorld
-// Creates an offscreen GWorld using the depth passed in.
+// Creates an offscreen GWorld¬†using the depth passed in.
 
 OSErr CreateOffScreenGWorld (GWorldPtr *theGWorld, Rect *bounds, short depth)
 {
@@ -310,8 +310,8 @@ void KillOffScreenBitMap (GrafPtr offScreen)
 }
 */
 //--------------------------------------------------------------  LoadGraphic
-// Function loads the specified 'PICT' from disk and draws it to…
-// the current port (no scaling, clipping, etc, are done).  Always…
+// Function loads the specified 'PICT' from disk and draws it to‚Ä¶
+// the current port (no scaling, clipping, etc, are done).  Always‚Ä¶
 // draws in the upper left corner of current port.
 
 void LoadGraphic (short resID)
@@ -333,8 +333,8 @@ void LoadGraphic (short resID)
 }
 
 //--------------------------------------------------------------  LoadScaledGraphic
-// Loads the specified 'PICT' and draws it mapped to the rectangle…
-// specified.  If this rect isn't the same size of the 'PICT', scaling…
+// Loads the specified 'PICT' and draws it mapped to the rectangle‚Ä¶
+// specified.  If this rect isn't the same size of the 'PICT', scaling‚Ä¶
 // will occur.
 
 void LoadScaledGraphic (short resID, Rect *theRect)
@@ -407,8 +407,8 @@ void DrawCIcon (short theID, short h, short v)
 
 //--------------------------------------------------------------  LongSquareRoot
 
-// This is a quick and dirty square root function that returns pretty…
-// accurate long integer results.  It uses no transcendental functions or…
+// This is a quick and dirty square root function that returns pretty‚Ä¶
+// accurate long integer results.  It uses no transcendental functions or‚Ä¶
 // floating point.
 
 long LongSquareRoot (long theNumber)
@@ -530,7 +530,7 @@ char GetKeyMapFromMessage (long message)
 }
 
 //--------------------------------------------------------------  GetKeyName
-// Given a keyDown event (it's message field), this function returns…
+// Given a keyDown event (it's message field), this function returns‚Ä¶
 // a string with that key's name (so we get "Shift" and "Esc", etc.).
 
 void GetKeyName (long message, StringPtr theName)
@@ -716,7 +716,7 @@ long ExtractCTSeed (CGrafPtr porter)
 }
 */
 //--------------------------------------------------------------  ForceCTSeed
-// Forces  the "color table seed" from a specified graf port to a…
+// Forces  the "color table seed" from a specified graf port to a‚Ä¶
 // specified value.
 /*
 void ForceCTSeed (CGrafPtr porter, long newSeed)
@@ -725,7 +725,7 @@ void ForceCTSeed (CGrafPtr porter, long newSeed)
 }
 */
 //--------------------------------------------------------------  DelayTicks
-// Lil' function that just sits and waits a specified number of…
+// Lil' function that just sits and waits a specified number of‚Ä¶
 // Ticks (1/60 of a second).
 
 void DelayTicks (long howLong)
@@ -736,7 +736,7 @@ void DelayTicks (long howLong)
 }
 
 //--------------------------------------------------------------  UnivGetSoundVolume
-// Returns the speaker volume (as set by the user) in the range of…
+// Returns the speaker volume (as set by the user) in the range of‚Ä¶
 // zero to seven (handles Sound Manager 3 case as well).
 
 void UnivGetSoundVolume (short *volume, Boolean hasSM3)
@@ -760,7 +760,7 @@ void UnivGetSoundVolume (short *volume, Boolean hasSM3)
 }
 
 //--------------------------------------------------------------  UnivSetSoundVolume
-// Sets the speaker volume to a specified value (in the range of…
+// Sets the speaker volume to a specified value (in the range of‚Ä¶
 // zero to seven (handles Sound Manager 3 case as well).
 
 void  UnivSetSoundVolume (short volume, Boolean hasSM3)
