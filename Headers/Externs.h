@@ -392,3 +392,4 @@ void CloseThisWindow (WindowPtr *);
 #include "GliderStructs.h"
 #include "GliderVars.h"
 #include "GliderProtos.h"
+
